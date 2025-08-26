@@ -39,24 +39,6 @@ Backend API for Indian Cuisine application built with Node.js, Express, and Type
 - `npm start` - Start the production server
 - `npm run watch` - Watch for changes and rebuild
 
-## Deployment to Render
-
-1. Push your code to a GitHub repository
-2. Go to [Render Dashboard](https://dashboard.render.com/)
-3. Click "New" and select "Web Service"
-4. Connect your GitHub repository
-5. Configure the service:
-   - Name: `indian-cuisine-backend`
-   - Region: Choose the one closest to your users
-   - Branch: `main` or your preferred branch
-   - Build Command: `npm install && npm run build`
-   - Start Command: `npm start`
-6. Add environment variables:
-   - `NODE_VERSION`: `20.x`
-   - `PORT`: `10000`
-   - `DATAPATH`: `./data/indian_food.csv`
-7. Click "Create Web Service"
-
 ## API Endpoints
 
 - `GET /api/dishes` - Get all dishes
